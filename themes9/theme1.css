@@ -1,0 +1,267 @@
+body{
+	 background-image: url(../Hip/ugh.jpg);
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-size: 100%;
+	 background-attachment: fixed;
+	
+}
+
+#mytitle{
+	 background-image: url(../Hip/ok.png);
+	 background-repeat: no-repeat;
+}
+
+.pot{
+    display: block;
+	width: 280px;
+	height: 280px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.urg{
+	margin: 10px;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: yellow;
+	font-size: 18pt;
+	display: flex;
+	position: absolute;
+	top: 300;
+	left: 575;
+    width: 30%;
+	height: 12%;
+	background: rgba(0, 0, 0, 0.4);
+	justify-content: center;
+}
+
+.urg1{
+	margin: 10px;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: ivory;
+	font-size: 20pt;
+	display: flex;
+	position: absolute;
+	top: 336;
+	left: 575;
+    width: 30%;
+	height: 12%;
+	background: rgba(0, 0, 0, 0.4);
+	justify-content: center;
+}
+
+.urg2{
+	margin: 10px;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: yellow;
+	font-size: 18pt;
+	display: flex;
+	position: absolute;
+	top: 372;
+	left: 575;
+    width: 30%;
+	height: 12%;
+	background: rgba(0, 0, 0, 0.4);
+	justify-content: center;
+}
+
+.urg3{
+	margin: 10px;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: ivory;
+	font-size: 20pt;
+	display: flex;
+	position: absolute;
+	top: 408;
+	left: 575;
+    width: 30%;
+	height: 12%;
+	background: rgba(0, 0, 0, 0.4);
+	justify-content: center;
+}
+
+.urg4{
+	margin: 10px;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: yellow;
+	font-size: 18pt;
+	display: flex;
+	position: absolute;
+	top: 444;
+	left: 575;
+    width: 30%;
+	height: 12%;
+	background: rgba(0, 0, 0, 0.4);
+	justify-content: center;
+}
+
+.urg5{
+	margin: 10px;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: ivory;
+	font-size: 20pt;
+	display: flex;
+	position: absolute;
+	top: 480;
+	left: 575;
+    width: 30%;
+	height: 12%;
+	background: rgba(0, 0, 0, 0.4);
+	justify-content: center;
+}
+
+.urg6{
+	margin: 10px;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: yellow;
+	font-size: 18pt;
+	display: flex;
+	position: absolute;
+	top: 516;
+	left: 575;
+    width: 30%;
+	height: 12%;
+	background: rgba(0, 0, 0, 0.4);
+	justify-content: center;
+}
+
+.urg7{
+	margin: 10px;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: ivory;
+	font-size: 20pt;
+	display: flex;
+	position: absolute;
+	top: 552;
+	left: 575;
+    width: 30%;
+	height: 12%;
+	background: rgba(0, 0, 0, 0.4);
+	justify-content: center;
+}
+
+.urg8{
+	margin: 10px;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: yellow;
+	font-size: 18pt;
+	display: flex;
+	position: absolute;
+	top: 588;
+	left: 575;
+    width: 30%;
+	height: 12%;
+	background: rgba(0, 0, 0, 0.4);
+	justify-content: center;
+}
+
+.urg9{
+	margin: 10px;
+	text-align: center;
+	font-family: Forte, sans-serif;
+	color: ivory;
+	font-size: 20pt;
+	display: flex;
+	position: absolute;
+	top: 624;
+	left: 575;
+    width: 30%;
+	height: 12%;
+	background: rgba(0, 0, 0, 0.4);
+	justify-content: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  color: black;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+
+.wrapper .sidebar{
+  width: 250px;
+  height: 100%;
+  background: #764318;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.wrapper .sidebar h2{
+  color: papayawhip;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: Corbel;
+  font-weight: bold;
+  font-size: 25pt;
+}
+
+.wrapper .sidebar ul li{
+  padding: 25px 10px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+  font-family: Candara;
+  font-size: 16pt;
+  color: mintcream;
+  display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color: palegoldenrod;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: black;
+}
+ 
+.wrapper .sidebar .social_media{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.wrapper .sidebar .social_media a{
+  display: block;
+  width: 40px;
+  background: #594f8d;
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #bdb8d7;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 200px;
+}
